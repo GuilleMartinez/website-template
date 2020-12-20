@@ -139,9 +139,8 @@ header {
   color: #f3f6f8; }
 
 html {
-  background-color: #FAFAFA; }
-  html *:focus {
-    scroll-margin: 6rem; }
+  background-color: #FAFAFA;
+  scroll-behavior: smooth; }
 
 main {
   display: grid;

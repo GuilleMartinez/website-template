@@ -5,10 +5,7 @@
 
 html {
     background-color: $background-color;
-
-    *:focus {
-        scroll-margin: 6rem;
-    }
+    scroll-behavior: smooth;
 }
 
 
