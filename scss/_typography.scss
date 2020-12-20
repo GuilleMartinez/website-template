@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+    letter-spacing: .1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-link {
+    font-family: $content-font-family;
+    font-size: 1.7rem;
+}
+
+.nav-toggler {
+    font-family: $content-font-family;
+    font-size: 2rem;
+}
+
+.close-btn a {
+    font-size: 2.5rem;
+}
+
+.title {
+    font-family: $title-font-family;
+
+    &.main-title {
+        font-size: 4.8rem;
+    }
+
+    &.subtitle,
+    &.secondary-title {
+        font-size: 3.9rem;
+    }
+
+    &.project-title {
+        font-size: 2.4rem;
+    }
+
+    &.project-subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+
+.main-content {
+    text-align: center;
+}
+
+.content {
+    font-family: $content-font-family;
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.service {
+    .icon-container {
+        font-size: 4.5rem;
+    }
+
+    .content-title {
+        font-size: 3.2rem;
+    }
+}
+
+
+.project-title {
+    font-size: 2.4rem;
+}
+
+
+.button {
+    font-family: $content-font-family;
+    font-size: 1.7rem;
+}
+
+.persona-link {
+    font-size: 3.2rem;
+}
+
+.content-title {
+    font-size: 2rem;
+}
+
+#contact {
+
+    .label-text {
+        font-family: $content-font-family;
+        font-size: 1.6rem;
+    }
+
+    input,
+    textarea {
+        text-align: center;
+        font-family: $content-font-family;
+
+        &:focus {
+            font-size: large;
+            transition: font-size .3s ease-in-out;
+        }
+    }
+}
+
+.footer-col {
+
+    text-align: center;
+
+    .footer-title {
+        font-size: 1.7rem;
+    }
+
+    .footer-link {
+        font-size: 1.5rem;
+    }
+}
+
+
+.menu-item {
+    text-align: center;
+}

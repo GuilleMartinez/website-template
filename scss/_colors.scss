@@ -1,0 +1,62 @@
+body {
+    color: $font-color;
+}
+
+.button {
+    background-color: $button-color;
+    color: $header-footer-color;
+    border: none;
+
+    &:hover {
+        background-color: $button-color-hover;
+    }
+
+    &:visited {
+        color: $background-color;
+    }
+}
+
+
+a:not(.button) {
+
+    color: $font-color;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+        color: $font-color;
+    }
+
+    &.persona-link:hover  {
+        color: $button-color-hover;
+    }
+}
+
+header {
+    background-color: $header-footer-color;
+
+    #menu {
+        background-color: $header-footer-color;
+
+        .menu-link {
+            @include menu-color;
+        }
+
+    }
+
+    .nav-toggler {
+        @include menu-color;
+    }
+}
+
+.main-content {
+    color: $header-footer-color;
+}
+
+
+.project-title,
+.project-subtitle {
+    color: $header-footer-color;
+}
