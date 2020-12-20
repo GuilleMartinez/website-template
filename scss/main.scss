@@ -380,7 +380,7 @@ header {
 form {
     @include d-flex(initial, center, column, nowrap);
     width: 60rem;
-    height: 60rem;
+    height: max-content;
 
 
     label {
@@ -413,7 +413,7 @@ form {
 
     textarea {
         width: 100%;
-        height: 34.5rem;
+        height: 20rem;
         resize: none;
     }
 
