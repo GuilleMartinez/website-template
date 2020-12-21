@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
 html {
   box-sizing: border-box; }
 
@@ -9,24 +10,45 @@ html {
   padding: 0;
   margin: 0; }
 
+/* TIPYGRAPHY SETTINGS */
 html {
   font-size: 62.5%;
   letter-spacing: .1rem; }
 
+/* BUTTONS && LINKS */
+.button {
+  font-size: 1.7rem; }
+
 a {
   text-decoration: none; }
 
+.persona-link {
+  font-size: 3.2rem; }
+
+/* CONTENT FONT */
+.link,
+.nav-toggler,
+.content,
+.button,
+.label-text,
+input,
+textarea {
+  font-family: "Roboto", sans-serif; }
+
+/* MENU */
+.menu-item {
+  text-align: center; }
+
 .menu-link {
-  font-family: "Roboto", sans-serif;
   font-size: 1.7rem; }
 
 .nav-toggler {
-  font-family: "Roboto", sans-serif;
   font-size: 2rem; }
 
 .close-btn a {
   font-size: 2.5rem; }
 
+/* TITLES */
 .title {
   font-family: "Lato", sans-serif; }
   .title.main-title {
@@ -37,12 +59,14 @@ a {
     font-size: 2.4rem; }
   .title.project-subtitle {
     font-size: 1.8rem; }
+  .title.content-title {
+    font-size: 2rem; }
 
+/* CONTENT SECTIONS */
 .main-content {
   text-align: center; }
 
 .content {
-  font-family: "Roboto", sans-serif;
   text-align: justify;
   font-size: 1.6rem;
   line-height: 150%; }
@@ -53,32 +77,18 @@ a {
 .service .content-title {
   font-size: 3.2rem; }
 
-.project-title {
-  font-size: 2.4rem; }
-
-.button {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.7rem; }
-
-.persona-link {
-  font-size: 3.2rem; }
-
-.content-title {
-  font-size: 2rem; }
-
 #contact .label-text {
-  font-family: "Roboto", sans-serif;
   font-size: 1.6rem; }
 
 #contact input,
 #contact textarea {
-  text-align: center;
-  font-family: "Roboto", sans-serif; }
+  text-align: center; }
   #contact input:focus,
   #contact textarea:focus {
     font-size: large;
     transition: font-size .3s ease-in-out; }
 
+/* FOOTER */
 .footer-col {
   text-align: center; }
   .footer-col .footer-title {
@@ -86,9 +96,7 @@ a {
   .footer-col .footer-link {
     font-size: 1.5rem; }
 
-.menu-item {
-  text-align: center; }
-
+/* COLOR SETTINGS */
 body {
   color: #2D3142; }
 
@@ -231,10 +239,11 @@ header {
     flex-flow: row nowrap;
     list-style: none; }
     header .menu-list .menu-item {
-      flex-basis: 20%; }
+      flex-basis: 20%;
+      margin: 0 1rem; }
   header #menu {
     flex-basis: 50%; }
-  @media (max-width: 775px) {
+  @media (max-width: 770px) {
     header .nav-toggler {
       display: block;
       padding: 0 1rem; }
@@ -448,7 +457,7 @@ form {
     form label input {
       height: 4.5rem;
       flex-basis: 75%; }
-    @media (max-width: 350px) {
+    @media (max-width: 420px) {
       form label {
         flex-direction: column; }
         form label input {
@@ -460,7 +469,7 @@ form {
     width: 100%;
     height: 20rem;
     resize: none; }
-  @media (max-width: 775px) {
+  @media (max-width: 770px) {
     form {
       width: 95%; } }
 
@@ -481,7 +490,7 @@ footer {
       footer .footer-col ul li {
         height: 4rem;
         line-height: 4rem; }
-  @media (max-width: 350px) {
+  @media (max-width: 420px) {
     footer {
       flex-direction: column; }
       footer .footer-col {

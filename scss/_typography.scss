@@ -1,19 +1,49 @@
+/* TIPYGRAPHY SETTINGS */ 
+
 html {
     font-size: 62.5%;
     letter-spacing: .1rem;
+}
+
+/* BUTTONS && LINKS */ 
+
+.button {
+    font-size: 1.7rem;
 }
 
 a {
     text-decoration: none;
 }
 
-.menu-link {
+.persona-link {
+    font-size: 3.2rem;
+}
+
+/* CONTENT FONT */ 
+
+.link,
+.nav-toggler,
+.content,
+.button,
+.label-text,
+input,
+textarea {
     font-family: $content-font-family;
+}
+
+
+
+/* MENU */ 
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-link {
     font-size: 1.7rem;
 }
 
 .nav-toggler {
-    font-family: $content-font-family;
     font-size: 2rem;
 }
 
@@ -21,6 +51,8 @@ a {
     font-size: 2.5rem;
 }
 
+/* TITLES */ 
+ 
 .title {
     font-family: $title-font-family;
 
@@ -40,15 +72,19 @@ a {
     &.project-subtitle {
         font-size: 1.8rem;
     }
+
+    &.content-title {
+        font-size: 2rem;
+    }
 }
 
+/* CONTENT SECTIONS */ 
 
 .main-content {
     text-align: center;
 }
 
 .content {
-    font-family: $content-font-family;
     text-align: justify;
     font-size: 1.6rem;
     line-height: 150%;
@@ -65,35 +101,15 @@ a {
 }
 
 
-.project-title {
-    font-size: 2.4rem;
-}
-
-
-.button {
-    font-family: $content-font-family;
-    font-size: 1.7rem;
-}
-
-.persona-link {
-    font-size: 3.2rem;
-}
-
-.content-title {
-    font-size: 2rem;
-}
-
 #contact {
 
     .label-text {
-        font-family: $content-font-family;
         font-size: 1.6rem;
     }
 
     input,
     textarea {
         text-align: center;
-        font-family: $content-font-family;
 
         &:focus {
             font-size: large;
@@ -101,6 +117,8 @@ a {
         }
     }
 }
+
+/* FOOTER */ 
 
 .footer-col {
 
@@ -113,9 +131,4 @@ a {
     .footer-link {
         font-size: 1.5rem;
     }
-}
-
-
-.menu-item {
-    text-align: center;
 }
